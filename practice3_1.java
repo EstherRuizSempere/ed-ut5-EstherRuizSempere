@@ -7,7 +7,7 @@ public class practice3_1 {
         int b = pedirNumero();
 
         int absolute = absolute(a);
-        print(absolute, "absolutE");
+        print(absolute, "absolute");
 
         int decrement = decrementExact(a);
         print(decrement, "decrement");
