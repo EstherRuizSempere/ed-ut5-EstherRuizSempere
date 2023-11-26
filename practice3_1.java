@@ -12,8 +12,8 @@ public class practice3_1 {
         int decrement = decrementExact(a);
         print(decrement, "decrement");
 
-        int absoluteE = absoluteExact(a);
-        print(absoluteE, "absoluteExact" );
+        int absolute = absoluteExact(a);
+        print(absolute, "absoluteExact" );
 
         int incrementE = incrementExact(a);
         print(incrementE, "incrementExact");
