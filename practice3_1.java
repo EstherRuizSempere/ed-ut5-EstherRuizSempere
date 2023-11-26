@@ -41,7 +41,34 @@ public class practice3_1 {
 
 
     }
+/* import java.util.Scanner;
 
+public class practice3_1 {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce el primer número:");
+        int a = sc.nextInt();
+        System.out.println("Introduce el segundo número:");
+        int b = sc.nextInt();
+
+        print(Math.abs(a), "Valor absoluto de " + a);
+        print(Math.decrementExact(a), "Decremento de " + a);
+        print(Math.incrementExact(a), "Incremento de " + a);
+        print(Math.max(a, b), "Máximo entre " + a + " y " + b);
+        print(Math.min(a, b), "Mínimo entre " + a + " y " + b);
+        print(Math.multiplyExact(a, b), "Producto de " + a + " y " + b);
+        print(Math.subtractExact(a, b), "Resta de " + a + " y " + b);
+        print(Math.floorMod(a, b), "Módulo de " + a + " sobre " + b);
+        print(Math.floorDiv(a, b), "División entera de " + a + " sobre " + b);
+        print((int) Math.sqrt(a), "Raíz cuadrada de " + a); // Nueva función
+    }
+
+    public static void print(int resultado, String descripcion){
+        System.out.println(descripcion + ": " + resultado);
+    }
+}
+/*
     /*1.La función devuelve el valor absoluto (absolute)*/
     public static int absolute(int num){
             return Math.abs(num);
