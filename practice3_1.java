@@ -41,6 +41,8 @@ public class practice3_1 {
 
 
     }
+
+    // Te simplifiqué el código para que lo vieras, es como yo lo tenía hecho
 /* import java.util.Scanner;
 
 public class practice3_1 {
